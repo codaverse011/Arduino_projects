@@ -1,0 +1,133 @@
+/ C++ code
+
+int Led1 = 13;
+int Led2 = 9;
+int Led3 = 7;
+int Led4 = 6;
+int poz = 2000;
+
+void setup()
+{
+  pinMode(Led1, OUTPUT);
+  pinMode(Led2, OUTPUT);
+  pinMode(Led3, OUTPUT);
+  pinMode(Led4, OUTPUT);
+  
+}
+
+void loop()
+{
+  //delay(poz);
+  //Representing 0
+  digitalWrite(Led1,LOW);
+  digitalWrite(Led2,LOW);
+  digitalWrite(Led3,LOW);
+  digitalWrite(Led4,LOW);
+  delay(poz);
+  
+  //Representing 1
+  digitalWrite(Led1,LOW);
+  digitalWrite(Led2,LOW);
+  digitalWrite(Led3,LOW);
+  digitalWrite(Led4,HIGH);
+  delay(poz);
+  
+  //Representing 2
+  digitalWrite(Led1,LOW);
+  digitalWrite(Led2,LOW);
+  digitalWrite(Led3,HIGH);
+  digitalWrite(Led4,LOW);
+   delay(poz);
+  
+  //Representing 3
+  digitalWrite(Led1,LOW);
+  digitalWrite(Led2,LOW);
+  digitalWrite(Led3,HIGH);
+  digitalWrite(Led4,HIGH);
+  delay(poz);
+  
+  //Representing 4
+  digitalWrite(Led1,LOW);
+  digitalWrite(Led2,HIGH);
+  digitalWrite(Led3,LOW);
+  digitalWrite(Led4,LOW);
+  delay(poz);
+  
+  //Representing 5
+  digitalWrite(Led1,LOW);
+  digitalWrite(Led2,HIGH);
+  digitalWrite(Led3,LOW);
+  digitalWrite(Led4,HIGH);
+  delay(poz);
+  
+  //Representing 6
+  digitalWrite(Led1,LOW);
+  digitalWrite(Led2,HIGH);
+  digitalWrite(Led3,HIGH);
+  digitalWrite(Led4,LOW);
+  delay(poz);
+  
+  //Representing 7
+  digitalWrite(Led1,LOW);
+  digitalWrite(Led2,HIGH);
+  digitalWrite(Led3,HIGH);
+  digitalWrite(Led4,HIGH);
+  delay(poz);
+  
+  //Representing 8
+  digitalWrite(Led1,HIGH);
+  digitalWrite(Led2,LOW);
+  digitalWrite(Led3,LOW);
+  digitalWrite(Led4,LOW);
+  delay(poz);
+  
+  //Representing 9
+  digitalWrite(Led1,HIGH);
+  digitalWrite(Led2,LOW);
+  digitalWrite(Led3,LOW);
+  digitalWrite(Led4,HIGH);
+  delay(poz);
+  
+  //Representing 10
+  digitalWrite(Led1,HIGH);
+  digitalWrite(Led2,LOW);
+  digitalWrite(Led3,HIGH);
+  digitalWrite(Led4,LOW);
+  delay(poz);
+  
+  //Representing 11
+  digitalWrite(Led1,HIGH);
+  digitalWrite(Led2,LOW);
+  digitalWrite(Led3,HIGH);
+  digitalWrite(Led4,HIGH);
+  delay(poz);
+
+  //Representing 12
+  digitalWrite(Led1,HIGH);
+  digitalWrite(Led2,HIGH);
+  digitalWrite(Led3,LOW);
+  digitalWrite(Led4,LOW);
+  delay(poz);
+  
+  //Representing 13
+  digitalWrite(Led1,HIGH);
+  digitalWrite(Led2,HIGH);
+  digitalWrite(Led3,LOW);
+  digitalWrite(Led4,HIGH);
+  delay(poz);
+  
+  //Representing 14
+  digitalWrite(Led1,HIGH);
+  digitalWrite(Led2,HIGH);
+  digitalWrite(Led3,HIGH);
+  digitalWrite(Led4,LOW);
+  delay(poz);
+  
+  //Representing 15
+  digitalWrite(Led1,HIGH);
+  digitalWrite(Led2,HIGH);
+  digitalWrite(Led3,HIGH);
+  digitalWrite(Led4,HIGH);
+  delay(poz);
+
+}
